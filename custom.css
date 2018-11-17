@@ -1,0 +1,56 @@
+/*字体*/
+*, h1, h2, h3, h4, h5
+{
+	font-family: "PMingLiU";
+	font-weight: 500;
+}
+
+/*色深*/
+.panel-default, .poi-plugin, #SettingsView, #top-nav, #settings-view-tabs
+{
+	background: rgba(0, 0, 0, 0.3);
+}
+
+/*背景*/
+#custom-bg 
+{ 
+	filter: blur(2px) saturate(50%) !important; 
+} 
+#bg-overlay 
+{ 
+	background-color: rgba(42, 42, 42, 0.5) !important; 
+}
+
+/*概览*/
+.MainView.poi-app-tabpane
+{
+	background-image: url("file:///D:/艦これ/同人图/鳳ちゃん大好き/40594113_Taihou.png");
+	background-size: 100%;
+}
+
+/*舰队配置*/
+.ShipView.poi-app-tabpane
+{
+	background-image: url("file:///D:/艦これ/同人图/鳳ちゃん大好き/440148BC973AC54848F512092E16DA9E(透明背景).png");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: 50% 87%;
+}
+
+/*插件部分*/
+.poi-app-tabpane.poi-plugin
+{
+	background-image: url("file:///D:/艦これ/同人图/鳳ちゃん大好き/pixiv51653626(去背景).png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+/*设置部分*/
+#settings-view-tabs
+{
+	background-image: url("file:///D:/艦これ/同人图/鳳ちゃん大好き/pixiv55135290(去背景).png");
+	background-size: 35%;
+	background-attachment: fixed;
+	background-position: bottom;
+}
